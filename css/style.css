@@ -133,3 +133,33 @@ header {
     text-align: center;
     color: #737272;
 }
+
+/* MINDSET SECTION */
+.mind-wrapper {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.mind-title {
+    margin-left: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.mind-wrapper .hero-btn {
+    margin-left: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
