@@ -46,7 +46,7 @@ header {
     margin-bottom: 32px;
 }
 
-.hero-btn {
+.btn-primary {
     padding: 20px 25px;
     font-style: normal;
     font-weight: 600;
@@ -158,8 +158,66 @@ header {
     margin-bottom: 24px;
 }
 
-.mind-wrapper .hero-btn {
+.mind-wrapper .btn-primary {
     margin-left: 64px;
     background-color: #FFFFFF;
     color: #F15B22;
 }
+
+/* FOOTER SECTION */
+footer {
+    background: #151414;
+    color: #ffffff;
+    padding: 130px 0;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .future-container {
+    max-width: 44%;
+  }
+  .future-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #f8f8f8;
+  }
+  .future-description {
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  .future-social-link a {
+    text-decoration: none;
+    margin-right: 17px;
+  }
+  .subscribe {
+    width: 30%;
+  }
+  .subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #f8f8f8;
+    margin-bottom: 31px;
+  }
+  .subscribe .email {
+    padding: 21px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .subscribe input::placeholder {
+    font-size: 18px;
+    line-height: 21px;
+    color: #f3f3f3;
+  }
+  .subscribe .btn-primary {
+    padding: 21px 36px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+  }
