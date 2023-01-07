@@ -1,7 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* HEADER SECTION */
+.wrapper {
+    width: 1140px;
+}
+
+header {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.hero-description {
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    padding: 20px 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: 0;
+    background-color: #F15B22;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-container {
+    width: 50%;
 }
