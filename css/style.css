@@ -60,3 +60,32 @@ header {
 .hero-container {
     width: 50%;
 }
+/* FAILURE SECTION */
+.failure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 85px;
+    margin: 130px 0;
+}
+.failure-title {
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.failure-description{
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failure-container ul li {
+    list-style-type: none;
+    line-height: 26px;
+}
+.failure-container ul li i {
+    margin-right: 10px;
+    color: #16D887;
+}
