@@ -12,6 +12,7 @@ body {
 /* HEADER SECTION */
 .wrapper {
     width: 1140px;
+    margin: 0 auto;
 }
 
 header {
@@ -57,9 +58,11 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .hero-container {
     width: 50%;
 }
+
 /* FAILURE SECTION */
 .failure-container {
     display: flex;
@@ -69,23 +72,64 @@ header {
     gap: 85px;
     margin: 130px 0;
 }
+
 .failure-title {
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
-.failure-description{
+
+.failure-description {
     line-height: 26px;
     color: #444343;
     margin-top: 24px;
     margin-bottom: 16px;
 }
+
 .failure-container ul li {
     list-style-type: none;
     line-height: 26px;
 }
+
 .failure-container ul li i {
     margin-right: 10px;
     color: #16D887;
+}
+
+/* PLANNER SECTION */
+
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.item-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
 }
